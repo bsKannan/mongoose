@@ -8,7 +8,7 @@ exports.init = (req,res)=> {
         phone: '3698745120'
     })
 
-    app.save(function(err) {
+    apple.save(function(err) {
         if(err) return  console.error(err.stack)
 
         console.log("Apple comapny is added");
